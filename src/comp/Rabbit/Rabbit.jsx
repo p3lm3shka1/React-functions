@@ -8,7 +8,7 @@ function Rabbit() {
     setJumped(random);
   }
 
-  function totallyJumped() {
+  function trueJumped() {
     setJumped(true);
   }
 
@@ -17,7 +17,7 @@ function Rabbit() {
       <h2>Zuikis</h2>
       <p>Ar zuikis peršoko? {jump ? "Taip" : "Ne"}</p>
       <button onClick={randomJump}>Ar persoks zuikis?</button>
-      <button onClick={totallyJumped}>Priversti zuikį peršokti</button>
+      <button onClick={trueJumped}>Priversti zuikį peršokti</button>
     </section>
   );
 }

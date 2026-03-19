@@ -7,6 +7,9 @@ import PriceCalc from "./comp/PriceCalc/PriceCalc";
 import Word from "./comp/Word/Word";
 import Rabbit from "./comp/Rabbit/Rabbit";
 import SpeedCounter from "./comp/SpeedCounter/SpeedCounter";
+import Runners from "./comp/Runners/Runners";
+import Chickens from "./comp/Chickens/Chickens";
+import Todo from "./comp/Todo/Todo";
 
 function App() {
   //count yra kintamasis kuris saugo counter reiksme
@@ -22,6 +25,9 @@ function App() {
       <Word />
       <Rabbit />
       <SpeedCounter />
+      <Runners />
+      <Chickens />
+      <Todo />
     </div>
   );
 }

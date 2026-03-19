@@ -14,9 +14,9 @@ function SpeedCounter() {
     setSpeed(0);
   }
 
-  function speedDesc() {
+  function speedDescribe() {
     if (speed === 0) {
-      return "Stovi";
+      return "Stovi vietoje";
     } else if (speed < 20) {
       return "Letas greitis";
     } else if (speed < 60) {
@@ -30,7 +30,7 @@ function SpeedCounter() {
     <section>
       <h2>Greitis</h2>
       <p>Dabartinis greitis: {speed} km/h</p>
-      <p>Greicio aprasymas: {speedDesc()}</p>
+      <p>Greicio aprasymas: {speedDescribe()}</p>
       <button onClick={increaseSpeed10}>Greitis +10</button>
       <button onClick={increaseSpeed20}>Greitis +20</button>
       <button onClick={decreaseSpeed}>Sumažinti greitį</button>
